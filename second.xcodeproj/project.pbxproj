@@ -10,6 +10,8 @@
 		38F3E47C1998362600A32AF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F3E47B1998362600A32AF5 /* Foundation.framework */; };
 		38F3E47F1998362600A32AF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E47E1998362600A32AF5 /* main.m */; };
 		38F3E4831998362600A32AF5 /* second.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 38F3E4821998362600A32AF5 /* second.1 */; };
+		38F3E48B1999837E00A32AF5 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E48A1999837E00A32AF5 /* Employee.m */; };
+		38F3E48E199BC8CE00A32AF5 /* twoEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3E48D199BC8CE00A32AF5 /* twoEmployee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		38F3E47E1998362600A32AF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		38F3E4811998362600A32AF5 /* second-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "second-Prefix.pch"; sourceTree = "<group>"; };
 		38F3E4821998362600A32AF5 /* second.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = second.1; sourceTree = "<group>"; };
+		38F3E4891999837E00A32AF5 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		38F3E48A1999837E00A32AF5 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		38F3E48C199BC8CE00A32AF5 /* twoEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twoEmployee.h; sourceTree = "<group>"; };
+		38F3E48D199BC8CE00A32AF5 /* twoEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoEmployee.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				38F3E47E1998362600A32AF5 /* main.m */,
+				38F3E48C199BC8CE00A32AF5 /* twoEmployee.h */,
+				38F3E48D199BC8CE00A32AF5 /* twoEmployee.m */,
+				38F3E4891999837E00A32AF5 /* Employee.h */,
+				38F3E48A1999837E00A32AF5 /* Employee.m */,
 				38F3E4821998362600A32AF5 /* second.1 */,
 				38F3E4801998362600A32AF5 /* Supporting Files */,
 			);
@@ -139,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F3E48E199BC8CE00A32AF5 /* twoEmployee.m in Sources */,
 				38F3E47F1998362600A32AF5 /* main.m in Sources */,
+				38F3E48B1999837E00A32AF5 /* Employee.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
